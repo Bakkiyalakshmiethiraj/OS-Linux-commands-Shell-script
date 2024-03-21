@@ -50,6 +50,8 @@ sumit chakrobarty
 
 cat < file2
 ## OUTPUT
+![Screenshot 2024-03-21 112315](https://github.com/04Varsha/OS-Linux-commands-Shell-script/assets/144870983/3cd1ea45-1b1b-4288-8d4f-1fbfe45cd89a)
+
 anil aggarwal
 barun sengupta
 c.k. shukla
