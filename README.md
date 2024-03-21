@@ -195,43 +195,52 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 134800](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/8cda819f-1c93-4697-8a03-1e28ae83152b)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135124](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/e514ec43-d482-423c-8e78-f88bd12ee249)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135232](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/a704cf99-6417-4053-8584-c0f4b634a4b0)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135339](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/bb2256e9-2c7e-469c-b76e-3497fb8688b9)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135433](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/379d0126-32f2-4c4c-ac92-2f3d023f7d3f)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135710](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/a69a5068-0480-4fa8-bfbb-f949087b34e2)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![Screenshot 2024-03-21 135710](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/1f521f99-be90-47e9-9712-bd2a7a03ee8e)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![Screenshot 2024-03-21 135844](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/13db49b8-0b2c-4620-889a-59b9c747b99e)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![Screenshot 2024-03-21 140019](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/3bb03847-6ab2-4624-9b8e-02bff2ba02e9)
 
 
 cat > file23
@@ -250,26 +259,31 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![Screenshot 2024-03-21 140557](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/7c821be5-9f47-4c9e-a6aa-3c4bf154b940)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![Screenshot 2024-03-21 142427](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/39513c0f-5c38-46a2-bccc-fe11fddd076f)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot 2024-03-21 142556](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/53da0ee2-34e0-4a9d-bf17-2de754d3bd43)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot 2024-03-21 142725](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/aae2a877-c29a-4122-b285-5bbbfa22dd89)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![Screenshot 2024-03-21 142841](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/ce802bf0-9d20-4538-a6b2-bc779a68277f)
 
 
 
