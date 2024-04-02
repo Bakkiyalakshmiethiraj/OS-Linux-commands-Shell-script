@@ -361,6 +361,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Screenshot 2024-03-26 110024](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/89ed007c-5983-4b32-915b-c5d8bc198489)
 
 
 cat > file22
@@ -374,6 +375,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot 2024-03-26 110217](https://github.com/Bakkiyalakshmiethiraj/OS-Linux-commands-Shell-script/assets/144870983/cbb8e47d-4fc5-4641-83b2-8dabebb5f9b8)
 
 
 
